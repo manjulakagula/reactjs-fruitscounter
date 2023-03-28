@@ -1,0 +1,121 @@
+/* Write your CSS here */Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@manjulakagula 
+kavyasamala-dev
+/
+Reactjs-FruitsCounter
+Public
+Fork your own copy of kavyasamala-dev/Reactjs-FruitsCounter
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Reactjs-FruitsCounter/src/components/FruitsCounter/index.css
+@kavyasamala-dev
+kavyasamala-dev commit
+Latest commit 3c5c236 on Feb 14
+ History
+ 1 contributor
+77 lines (68 sloc)  1.21 KB
+
+/* Write your CSS here */
+.fruits-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fruits-eat-heading {
+  color: #000000;
+  font-size: 46px;
+  padding: 20px;
+}
+
+.mango-count {
+  color: #ffd569;
+}
+
+.banana-count {
+  color: #ffd569;
+}
+
+.fruits-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fruit-image {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.fruit-button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .fruits-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .fruits-eat-heading {
+    color: #000000;
+    font-size: 23px;
+    padding: 10px;
+  }
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Reactjs-FruitsCounter/index.css at main · kavyasamala-dev/Reactjs-FruitsCounter
